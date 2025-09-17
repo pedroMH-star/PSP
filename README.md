@@ -1,2 +1,2 @@
-# PSP2
+# PSP
 Programación de Servicios y Procesos
