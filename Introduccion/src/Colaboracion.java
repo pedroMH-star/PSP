@@ -6,7 +6,7 @@ import java.io.*;
  * @until 23/09/2025
  */
 
-public class Collaboration {
+public class Colaboracion {
     public static void main(String[] args) {
 
         int numInstancias = 10; // Número de procesos que queremos ejecutar (10 instancias de RandomNumbers)
@@ -20,7 +20,7 @@ public class Collaboration {
 
             for (int i = 0; i < numInstancias; i++) {
                 // Ejecutar RandomNumbers usando el mismo classpath
-                ProcessBuilder pb = new ProcessBuilder("java", "-cp", classpath, "RandomNumbers");
+                ProcessBuilder pb = new ProcessBuilder("java", "-cp", classpath, "NumRandom");
                 pb.redirectErrorStream(true);
                 Process proceso = pb.start();
 
@@ -32,7 +32,7 @@ public class Collaboration {
                     writer.write(linea); // Escribimos esa línea en el fichero numeros.txt
                     writer.newLine(); // Salto de linea
                 } else {
-                    System.out.println("Advertencia: La clase RandomNumbers no ha hecho salida en la instancia " + (i + 1));
+                    System.out.println("Advertencia: La clase NumRandom no ha hecho salida en la instancia " + (i + 1));
                 }
 
                 proceso.waitFor(); // Espera a que el proceso termine antes de continuar con el siguiente

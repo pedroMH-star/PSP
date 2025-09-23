@@ -6,7 +6,7 @@ import java.util.Random; // Esto importa la clase Random de Java
  * @until 23/09/2025
  */
 
-public class RandomNumbers {
+public class NumRandom {
     public static void main(String[] args) {
         Random rand = new Random(); // Debe ser java.util.Random
         StringBuilder sb = new StringBuilder();
