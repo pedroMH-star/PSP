@@ -1,6 +1,9 @@
 /**
- * Hilo que representa un cliente que consume elementos.
- * Extrae elementos del buffer cada 1000ms de forma concurrente.
+ * Hilo que representa un cliente que consume elementos
+ * Extrae elementos del buffer cada 1000ms de forma concurrente
+ *
+ * @author Pedro Martínez Herrero
+ * @since 30/09/2025
  */
 public class Cliente extends Thread {
     private Buffer buffer;

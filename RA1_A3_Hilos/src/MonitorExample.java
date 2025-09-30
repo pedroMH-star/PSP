@@ -1,6 +1,9 @@
 /**
- * Clase principal que ejecuta la simulación.
- * Crea hilos suministradores y clientes y los ejecuta de manera concurrente.
+ * Clase principal que ejecuta la simulación
+ * Crea hilos suministradores y clientes y los ejecuta de manera concurrente
+ *
+ * @author Pedro Martínez Herrero
+ * @since 30/09/2025
  */
 public class MonitorExample {
     public static void main(String[] args) {

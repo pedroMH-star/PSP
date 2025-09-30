@@ -1,6 +1,9 @@
 /**
- * Hilo que representa un suministrador de elementos.
- * Añade elementos al buffer cada 500ms de forma concurrente.
+ * Hilo que representa un suministrador de elementos
+ * Añade elementos al buffer cada 500ms de forma concurrente
+ *
+ * @author Pedro Martínez Herrero
+ * @since 30/09/2025
  */
 public class Suministrador extends Thread {
     private Buffer buffer;
