@@ -106,7 +106,7 @@ public class Buffer {
      * Hilo que representa un suministrador de elementos.
      * Añade elementos al buffer cada 500ms de forma concurrente.
      */
-    public class Suministrador extends Thread {
+    class Suministrador extends Thread {
         private Buffer buffer;
         private int operaciones = 10; // Número máximo de operaciones del hilo
 
@@ -141,7 +141,7 @@ public class Buffer {
      * Hilo que representa un cliente que consume elementos.
      * Extrae elementos del buffer cada 1000ms de forma concurrente.
      */
-    public class Cliente extends Thread {
+    class Cliente extends Thread {
         private Buffer buffer;
         private int operaciones = 10; // Número máximo de operaciones del hilo
 
@@ -176,13 +176,12 @@ public class Buffer {
      * Clase principal que ejecuta la simulación.
      * Crea hilos suministradores y clientes y los ejecuta de manera concurrente.
      */
-    public class MonitorExample {
+    class MonitorExample {
         public static void main(String[] args) {
             Buffer buffer = new Buffer(5); // Tamaño máximo 5 elementos
 
-            System.out.println("* PRUEBA 1: 1 Cliente y 1 Suministrador *");
-            Suministrador s1 = new Suministrador(buffer, "Suministrador-1");
-            Cliente c1 = new Cliente(buffer, "Cliente-1");
+            Suministrador s1 = new Suministrador(buffer);
+            Cliente c1 = new Cliente(buffer);
             s1.start();
             c1.start();
 

@@ -82,7 +82,7 @@ public class Buffer {
             System.out.println(cliente + " espera: Buffer vacío");
             wait();
         }
-        int value = buffer[count - 1];
+        int value = buffer[--count];
         count--;
         System.out.println(cliente + " extrae -> " + value);
         mostrarBuffer();
