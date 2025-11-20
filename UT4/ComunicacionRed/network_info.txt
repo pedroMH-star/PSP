@@ -1,0 +1,104 @@
+# INFORME DE INTERFACES DE RED #
+
+Interfaz: VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+Activa: true
+ 
+Interfaz: VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: Realtek PCIe GbE Family Controller-VirtualBox NDIS Light-Weight Filter-0000
+Activa: true
+ 
+Interfaz: Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+Activa: true
+ 
+Interfaz: Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: WAN Miniport (IP)-QoS Packet Scheduler-0000
+Activa: true
+ 
+Interfaz: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+Activa: true
+ 
+Interfaz: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+Activa: true
+ 
+Interfaz: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+Activa: true
+ 
+Interfaz: Microsoft Kernel Debug Network Adapter
+Activa: false
+ 
+Interfaz: Realtek PCIe GbE Family Controller
+Activa: true
+  IP: fe80:0:0:0:28:dd19:8799:b077%ethernet_32769
+  Máscara: 64
+  Broadcast: null
+  IP: 192.168.88.246
+  Máscara: 24
+  Broadcast: /192.168.88.255
+ 
+Interfaz: VirtualBox Host-Only Ethernet Adapter
+Activa: true
+  IP: fe80:0:0:0:a719:546e:cbe6:3905%ethernet_32770
+  Máscara: 64
+  Broadcast: null
+  IP: 192.168.56.1
+  Máscara: 24
+  Broadcast: /192.168.56.255
+ 
+Interfaz: WAN Miniport (IP)
+Activa: true
+ 
+Interfaz: WAN Miniport (IPv6)
+Activa: true
+ 
+Interfaz: WAN Miniport (Network Monitor)
+Activa: true
+ 
+Interfaz: WAN Miniport (PPPOE)
+Activa: false
+ 
+Interfaz: Software Loopback Interface 1
+Activa: true
+  IP: 0:0:0:0:0:0:0:1
+  Máscara: 128
+  Broadcast: null
+  IP: 127.0.0.1
+  Máscara: 8
+  Broadcast: /127.255.255.255
+ 
+Interfaz: Microsoft Teredo Tunneling Adapter
+Activa: false
+ 
+Interfaz: Microsoft IP-HTTPS Platform Adapter
+Activa: false
+ 
+Interfaz: Microsoft 6to4 Adapter
+Activa: false
+ 
+Interfaz: WAN Miniport (SSTP)
+Activa: false
+ 
+Interfaz: WAN Miniport (IKEv2)
+Activa: false
+ 
+Interfaz: WAN Miniport (L2TP)
+Activa: false
+ 
+Interfaz: WAN Miniport (PPTP)
+Activa: false
+ 

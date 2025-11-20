@@ -30,7 +30,7 @@ public class ListNetworkInterfacesPartB {
                 boolean activa = interfaz.isUp();
 
                 System.out.println("Interfaz: " + name + " (" + displayName + ")");
-                System.out.println("Estado: " + (activa ? "Activa" : "Inactiva"));
+                System.out.print("Estado: " + (activa ? "Activa" : "Inactiva"));
 
                 // Obtenemos la lista de direcciones asociadas a la interfaz
                 List<InterfaceAddress> direcciones = interfaz.getInterfaceAddresses();
@@ -62,7 +62,7 @@ public class ListNetworkInterfacesPartB {
                     }
                 }
 
-                System.out.println("============================================\n");
+                System.out.print("============================================\n");
             }
 
         } catch (SocketException e) {

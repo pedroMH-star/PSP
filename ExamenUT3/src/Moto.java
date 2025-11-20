@@ -34,6 +34,6 @@ public class Moto extends Thread {
         synchronized (metaCompartida) {
             metaCompartida.add(nombre);
         }
-        System.out.println(nombre + " ha cruzado la meta");
+        System.out.println(nombre + " ha completado su recorrido");
     }
 }
