@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>ExitDB_ejemplo</artifactId>
+  <artifactId>RA4_A7_POP3</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>ExitDB_ejemplo</name>
+  <name>RA4_A7_POP3</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -23,20 +23,10 @@
       <scope>test</scope>
     </dependency>
 
-      <!-- Source: https://mvnrepository.com/artifact/net.sf.xmldb-org/xmldb-api -->
       <dependency>
-          <groupId>net.sf.xmldb-org</groupId>
-          <artifactId>xmldb-api</artifactId>
-          <version>2.0.0</version>
-          <scope>compile</scope>
-      </dependency>
-
-      <!-- Source: https://mvnrepository.com/artifact/org.exist-db/exist-core -->
-      <dependency>
-          <groupId>org.exist-db</groupId>
-          <artifactId>exist-core</artifactId>
-          <version>6.3.0</version>
-          <scope>compile</scope>
+          <groupId>commons-net</groupId>
+          <artifactId>commons-net</artifactId>
+          <version>3.9.0</version>
       </dependency>
 
   </dependencies>
